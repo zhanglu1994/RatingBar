@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nfrc.ratingbar.MainActivity">
+
+
+    <com.nfrc.ratingbar.RatingBar
+
+
+        android:id="@+id/mRatingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+
+        app:starNormal="@drawable/star_normal"
+        app:starFocus="@drawable/star_selected"
+        app:grade="5"
+
+        />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
